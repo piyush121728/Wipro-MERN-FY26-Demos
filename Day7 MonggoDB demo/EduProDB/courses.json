@@ -1,0 +1,20 @@
+[
+    {
+        "courseId": "C101",
+        "name": "Database Systems",
+        "credits": 3,
+        "department": "Computer Science"
+    },
+    {
+        "courseId": "C102",
+        "name": "Data Structures",
+        "credits": 4,
+        "department": "Computer Science"
+    },
+    {
+        "courseId": "C103",
+        "name": "Linear Algebra",
+        "credits": 3,
+        "department": "Mathematics"
+    }
+]

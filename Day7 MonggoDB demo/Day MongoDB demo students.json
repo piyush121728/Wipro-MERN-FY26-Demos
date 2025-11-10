@@ -1,0 +1,18 @@
+[
+    {
+        "StudentID": "S201",
+        "StudentName": "Priya Nair",
+        "Course": "Operating Systems",
+        "Instructor": "Dr. Rakesh Kumar",
+        "Department": "Information Technology",
+        "Grade": "A+"
+    },
+    {
+        "StudentID": "S202",
+        "StudentName": "Arjun Patel",
+        "Course": "Artificial Intelligence",
+        "Instructor": "Dr. Neha Singh",
+        "Department": "Computer Engineering",
+        "Grade": "B+"
+    }
+]

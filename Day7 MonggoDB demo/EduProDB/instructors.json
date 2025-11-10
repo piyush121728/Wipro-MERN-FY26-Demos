@@ -1,0 +1,17 @@
+[
+    {
+        "instructorId": "I101",
+        "name": "Dr. Mehta",
+        "department": "Computer Science"
+    },
+    {
+        "instructorId": "I102",
+        "name": "Dr. Sharma",
+        "department": "Computer Science"
+    },
+    {
+        "instructorId": "I103",
+        "name": "Dr. Rao",
+        "department": "Mathematics"
+    }
+]

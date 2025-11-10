@@ -1,0 +1,20 @@
+[
+    {
+        "studentId": "S101",
+        "name": "Asha Gupta",
+        "email": "asha@edupro.edu",
+        "department": "Computer Science"
+    },
+    {
+        "studentId": "S102",
+        "name": "Raj Verma",
+        "email": "raj@edupro.edu",
+        "department": "Computer Science"
+    },
+    {
+        "studentId": "S103",
+        "name": "Meena Rao",
+        "email": "meena@edupro.edu",
+        "department": "Mathematics"
+    }
+]

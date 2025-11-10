@@ -1,0 +1,26 @@
+[
+    {
+        "studentId": "S101",
+        "courseId": "C101",
+        "instructorId": "I101",
+        "grade": "A"
+    },
+    {
+        "studentId": "S102",
+        "courseId": "C102",
+        "instructorId": "I102",
+        "grade": "B"
+    },
+    {
+        "studentId": "S101",
+        "courseId": "C102",
+        "instructorId": "I102",
+        "grade": "A"
+    },
+    {
+        "studentId": "S103",
+        "courseId": "C103",
+        "instructorId": "I103",
+        "grade": "A"
+    }
+]
