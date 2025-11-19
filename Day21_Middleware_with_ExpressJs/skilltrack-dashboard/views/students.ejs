@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Students List</title>
+</head>
+
+<body>
+    <h1>Student Progress</h1>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Progress (%)</th>
+        </tr>
+
+        <% students.forEach(s=> { %>
+            <tr>
+                <td>
+                    <%= s.id %>
+                </td>
+                <td>
+                    <%= s.name %>
+                </td>
+                <td>
+                    <%= s.email %>
+                </td>
+                <td>
+                    <%= s.progress %>
+                </td>
+            </tr>
+            <% }) %>
+    </table>
+</body>
+
+</html>

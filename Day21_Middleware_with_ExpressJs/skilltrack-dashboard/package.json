@@ -1,0 +1,28 @@
+{
+    "name": "skilltrack-dashboard",
+    "version": "1.0.0",
+    "description": "Internal Student Progress Dashboard for SkillTrack Academy using Express.js with custom middleware, validation, logging, and template engine.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "express",
+        "middleware",
+        "dashboard",
+        "students",
+        "nodejs",
+        "ejs"
+    ],
+    "author": "SkillTrack Academy",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
