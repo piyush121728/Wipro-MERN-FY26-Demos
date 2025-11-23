@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Chat</title>
+    <style>
+        #chat-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        #messages {
+            height: 200px;
+            overflow-y: auto;
+            border: 1px solid #eee;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        #message-input {
+            width: 70%;
+            padding: 5px;
+        }
+
+        #send-button {
+            width: 25%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="chat-container">
+        <div id="messages"></div>
+
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+    </div>
+
+    <!-- Socket.io client -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+        const socket = io();
+
+        const messages = document.getElementById('messages');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+
+        sendButton.addEventListener('click', () => {
+            const message = messageInput.value.trim();
+
+            if (message !== "") {
+                socket.emit('message', message);
+                messageInput.value = '';
+            }
+        });
+
+        socket.on('message', (message) => {
+            const element = document.createElement('div');
+            element.textContent = message;
+            messages.appendChild(element);
+        });
+    </script>
+
+</body>
+
+</html>
